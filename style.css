@@ -1,0 +1,676 @@
+@charset "utf-8";
+/* RESET */
+body {
+    margin: 0px;
+    background-color: #F7F7F7;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+/* FONTS */
+@font-face {
+    font-family: 'Helvetica';
+    src: url("fonts/Helvetica.ttf");
+    font-weight: normal;
+}
+/* FONTS STYLES */
+body {
+    font-family: 'Helvetica';
+    font-size: 1em;
+}
+h2 {
+    font-family: 'Helvetica';
+    font-size: 3em;
+    color: white;
+}
+/* BOUTONS ET LIENS */
+.menu a {
+    transition: all 1s;
+}
+.menu a:hover {
+    color: #FF5929;
+}
+.devis:hover {
+    background-color: white;
+}
+.button-full-width-image-orange:hover {
+    background-color: white;
+}
+.button-full-width-image-black:hover {
+    background-color: white;
+    color: black;
+}
+/* BARRE DE NAVIGATION */
+.nav-bar {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+}
+.logo {
+    display: flex;
+    width: 15%;
+    margin-left: 5%;
+}
+.nav-logo {
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 70%;
+}
+.menu a {
+    font-size: 1em;
+    color: white;
+    padding: 20px;
+}
+.devis {
+    display: flex;
+    background-color: #FF5929;
+    width: 15%;
+    transition: all 1s;
+}
+.devis p {
+    color: black;
+    margin: auto;
+    font-weight: bold;
+}
+/* FULL WIDTH IMAGE */
+.full-width-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1.00);
+}
+.full-width-background {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/homme-carton-camionnette.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+}
+.content-full-width-image {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    position: absolute;
+    z-index: 2;
+    margin-left: 15%;
+}
+.bouton {
+    display: flex;
+    height: 150px;
+    justify-content: flex-start;
+    width: 100%;
+}
+.button-full-width-image-black {
+    display: flex;
+    width: 260px;
+    background-color: #000000;
+    font-family: "Helvetica";
+    color: white;
+    transition: all 1s;
+}
+.button-full-width-image-black p {
+    font-weight: bold;
+}
+.button-full-width-image-black h3 {
+    font-weight: normal;
+}
+.button-full-width-image-orange {
+    display: flex;
+    width: 260px;
+    background-color: #FF5929;
+    font-family: "Helvetica";
+    color: black;
+    transition: all 1s;
+}
+.button-full-width-image-orange p {
+    font-weight: bold;
+}
+.button-full-width-image-orange h3 {
+    font-weight: normal;
+}
+.position {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    padding-right: 50px;
+}
+/* A PROPOS */
+.about {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #FF5929;
+}
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.about-image {
+    display: flex;
+    width: 50%;
+}
+.about-image img {
+    object-fit: cover;
+    width: 100%;
+    object-position: 50% 20%;
+}
+.about-text-content {
+    padding-left: 20%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+}
+.about-text-content p {
+    font-family: 'Helvetica', 'sans serif';
+    color: white;
+    font-weight: bold;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+.about-text-content h1 {
+    font-family: 'Helvetica', 'sans serif';
+    font-size: 1em;
+    padding-right: 25%;
+}
+.button-about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 184px;
+    padding: 15px;
+    transition: all 0.5s;
+}
+.button-about-us:hover {
+    background-color: white;
+    color: black;
+}
+/* NOS SERVICES */
+.title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica', 'sans serif';
+    font-size: 4em;
+    font-weight: bold;
+    padding: 40px 0px;
+    background-color: #F7F7F7;
+}
+.services-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #F7F7F7;
+}
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: white;
+    margin: 10px;
+}
+.button-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5929;
+    font-family: 'Helvetica', 'sans serif';
+    font-size: 1em;
+    width: 100px;
+    padding: 12px 20px;
+    color: black;
+    transition: all 0.5s;
+}
+.button-article:hover {
+    background-color: black;
+    color: white;
+}
+.article-image {
+    width: 100%;
+    height: auto;
+}
+.article-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.content-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+.title-article {
+    font-family: 'Helvetica', 'sans serif';
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 20px;
+    letter-spacing: 0.03em;
+}
+.description-article {
+    font-family: 'Helvetica', 'sans serif';
+    font-size: 1em;
+    padding-bottom: 30px;
+    letter-spacing: 0.03em;
+}
+.space-between {
+    width: 100%;
+    height: 50px;
+    background-color: #F7F7F7;
+}
+/* TEMOIGNAGES */
+.services-full-width-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/2hommes-portent-un-meuble.webp");
+    width: 1200px;
+    height: 21em;
+}
+.services-full-width-image p {
+    font-family: 'Helvetica', 'sans serif';
+    font-size: 4em;
+    color: white;
+    font-weight: bold;
+    filter: opacity(100%);
+}
+.full-width-services {
+    display: flex;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+.services-tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+}
+
+.services-tab img {
+	width: 40px;
+	padding-bottom: 8px;
+}
+.tab {
+    width: 33.33%;
+    font-family: 'Helvetica', 'sans serif';
+    font-size: 1.3em;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.tab h3 {
+	font-size: 0.8em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.black {
+    background-color: #000000;
+}
+.orange {
+    background-color: #FF5929;
+}
+.white {
+    background-color: #FFFFFF;
+    color: black !important;
+}
+.tab-center {
+    display: flex;
+    justify-content: center;
+}
+
+.tab-center img {
+    width: 40px;
+}
+.clients {
+    font-size: 2.7em;
+    margin-top: 50px;
+    font-weight: bold;
+}
+/* TEMOIGNAGES */
+.content-testimonials {
+    display: flex;
+    justify-content: space-evenly;
+	margin: 50px 0px;
+}
+.reverse {
+    transform: rotate(180deg);
+}
+.testimonial-arrow {
+    margin: auto;
+	cursor: pointer;
+}
+.testimonial-arrow img {
+    width: 20px
+}
+.testimonial-text {
+    width: 300px;
+    text-align: center;
+}
+.content-partenaires {
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 40px;
+}
+
+.devis-form-section {
+	display: flex;
+	align-items: center;
+	background-color: #FF5929;
+}
+
+.devis-text {
+	width:50%;
+}
+
+.devis-text h2 {
+	padding-left: 35%;
+}
+
+.devis-text p {
+	padding: 0% 35%;
+}
+
+.field {
+	display: flex;
+	flex-direction: column;
+	width: 180px;
+	padding: 0px 20px;
+}
+
+input {
+	height: 40px;
+	border: 0px;
+	border-radius: 3px;
+	padding-left: 8px;
+	font-family: 'Helvetica', 'sans serif';
+	font-size: 0.9em;
+}
+
+label {
+	font-family: 'Helvetica', 'sans serif';
+	font-size: 0.9em;
+	padding-bottom: 10px;
+}
+.devis-form {
+	width:50%;
+	padding: 100px 0px;
+}
+
+.form-line {
+	display: flex;
+	padding: 10px 20px;
+	width: 50%;
+	justify-content: space-between;
+}
+
+#full-width {
+	width: 100%;
+	margin: 0px 20px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	background-color: black;
+	padding-top: 30px;
+}
+
+.section-footer p {
+	color: white;
+}
+
+.section-footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.section-footer a {
+	color: white;
+	transition: all 0.4s;
+}
+
+.section-footer a:hover {
+	color: #FF5929;
+}
+
+.section-footer p {
+	padding-top: 30px;
+	line-height: 1.7em;
+}
+
+.logo-footer {
+	width: 130px;
+}
+
+.no-gap {
+	padding-top: 10px !important;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+.adjustement {
+	padding: 0% 8%;
+	color: white;
+}
+
+.in-line {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.in-line a {
+	margin: 20px !important;
+	font-size: 2em !important;
+}
+
+#facebook:hover {
+	color:#3b5998
+}
+
+#twitter:hover {
+	color: #1DA1F2;
+}
+
+#linkedin:hover {
+	color: #0e76a8;
+}
+
+#youtube:hover {
+	color: #FF0000;
+}
+
+.more-space {
+	padding-top: 60px;
+}
+
+.quality-guarenty {
+    display: flex;
+    align-items: center;
+	flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/homme-porte-carton.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 25%;
+    width: 100%;
+    height: 21em;
+	padding: 4% 0px;
+}
+
+.padding-quality {
+	margin:35%;
+}
+
+.padding-quality p {
+	font-size: 2.8em;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+
+.padding-quality h1 {
+	font-size: 1em;
+	font-weight: normal;
+	color: white;
+}
+
+.transparent {
+	color: black;
+}
+
+.tab-padding {
+	padding: 60px 0px;
+}
+
+.about-paragraph {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    width: 50%;
+	background-color: #F7F7F7;
+}
+
+.about-paragraph p {
+    margin-bottom: 2em;
+}
+
+.about-paragraph-padding {
+    display: flex;
+	flex-direction: column;
+    width: 50%;
+	margin: 20%;
+}
+
+#about-text-content-padding {
+	display: block;
+	word-break: break-word;
+	margin: 20%;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	margin: 10px;
+}
+
+.black p {
+	color:white;
+}
+
+.card-section-row {
+	display: flex;
+	margin: 0px 50px;
+}
+
+.margin-card {
+	margin: 10% 25%;
+	color: white;
+}
+
+.margin-card h2 {
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+.margin-card p {
+	text-align: center;
+}
+
+.card-section {
+	padding: 60px 0px;
+}
+
+.left-section {
+	padding: 100px 0px;
+	width:50%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.left-section p {
+	font-family: 'Helvetica', 'sans serif';
+	font-weight: bold;
+	font-size: 3em;
+	padding-right: 15%
+}
+
+.right-section {
+	padding: 100px 0px;
+	width:50%;
+}
+
+.right-section p {
+	font-family: 'Helvetica', 'sans serif';
+	font-size: 1em;
+	margin: 30px 0px;
+	padding-left: 15%
+}
+
+.adress-section {
+	display: flex;
+	width: 100%;
+	background-color: white;
+}
+
+.column {
+	flex-direction: column;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.secteur-top p {
+	font-family: 'Helvetica', 'sans serif';
+	font-weight: bold;
+	font-size: 3em;
+	padding-bottom: 30px;
+}
+
+.center-adress {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.secteur-bot {
+	padding: 50px;
+	text-align: center;
+}
+
+.secteur-bot p {
+	padding: 10px;
+}
