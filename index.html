@@ -4,140 +4,179 @@
 <meta charset="utf-8">
 <title>Paul et Fils - Accueil</title>
 <link href="style.css" rel="stylesheet" type="text/css">
+<link href="responsive.css" rel="stylesheet" type="text/css">
 <script src="https://kit.fontawesome.com/b4e4872456.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-<!-- BARRE DE NAVIGATION
+<!-- NAVIGATION BAR
 	--------------------------------------->
 
 <div class="nav-bar">
-    <div class="logo"> <img class="nav-logo" src="images/logo.png" alt="Logo Paul et Fils"> </div>
-    <div class="menu"> <a href="index.html">Accueil</a> <a href="apropos.html">A Propos</a> <a href="services.html">Services</a> <a href="conseils.html">Conseils</a> <a href="contact.html">Contact</a> </div>
-    <a href="#" class="devis">
-    <p>Devis gratuit</p>
-    </a> </div>
+    <div class="logo">
+		<img src="images/logo.png" alt="Logo Paul et Fils">
+	</div>
+    <nav>
+		<div class="menu">
+        	<a href="index.html">Accueil</a>
+			<a href="apropos.html">A Propos</a>
+			<a href="services.html">Services</a>
+			<a href="conseils.html">Conseils</a>
+			<a href="contact.html">Contact</a>
+		</div>
+    </nav>
+    <a href="#" class="button-nav-bar">
+    	<p>Devis gratuit</p>
+    </a>
+</div>
 
-<!-- FULL WIDTH IMAGE
+<!-- PRESENTATION
 	--------------------------------------->
 
 <div class="full-width-image">
-    <div class="full-width-background"> </div>
     <div class="content-full-width-image">
         <h2>Déménager n'a jamais été aussi facile.</h2>
-        <div class="bouton"> <a class="button-full-width-image-black" href="#">
+        <div class="row-full-width-image">
+			<a class="button-full-width-image-black" href="#">
             <div class="position">
-                <p>APPELEZ-NOUS</p>
+                <h2>Appelez-nous</h2>
                 <h3>01 23 45 67 89</h3>
             </div>
-            </a> <a class="button-full-width-image-orange" href="#">
+            </a>
+			<a class="button-full-width-image-orange" href="#">
             <div class="position">
-                <p>COMMENCER EN LIGNE</p>
+                <h2>Commencer en ligne</h2>
                 <h3>Devis gratuit en quelques secondes</h3>
             </div>
-            </a> </div>
+            </a>
+		</div>
     </div>
 </div>
 
-<!-- A PROPOS
+<!-- ABOUT
 	--------------------------------------->
 
-<div class="about">
-    <div class="about-text">
-        <div class="about-text-content">
-            <p>Paul et fils Déménagement</p>
+<div class="full-width-about">
+    <div class="full-width-about-text">
+        <div class="full-width-about-content">
+            <h2>Paul et fils Déménagement</h2>
             <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
-            <a href="#" class="button-about-us">A propos de nous</a> </div>
+            <a href="#" class="button-about-us">A propos de nous</a>
+		</div>
     </div>
-    <div class="about-image"> <img src="images/homme-porte-carton.webp" alt="Un déménageur porte un carton"> </div>
+    <div class="full-width-about-image">
+		<img src="images/homme-porte-carton.webp" alt="Un déménageur porte un carton">
+	</div>
 </div>
 
-<!-- NOS SERVICES
+<!-- ARTICLES
 		--------------------------------------->
 
-<div class="title-section">Nos Services</div>
-<div class="services-center"> 
-    <!-- DEBUT DE L'ARTICLE -->
-    <div class="article">
-        <div class="article-image"><img src="images/2hommes-camionnette.webp" alt="Deux hommes sortent des cartons d'une camionette"></div>
-        <div class="content-article">
-            <div class="title-article">Déménagement à proximité</div>
-            <div class="description-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-            <a href="#" class="button-article">Lire plus</a> </div>
-    </div>
-    <!-- FIN DE L'ARTICLE --> 
-    <!-- DEBUT DE L'ARTICLE -->
-    <div class="article">
-        <div class="article-image"><img src="images/camionnette.webp" alt="Une camionette roule sur une départementale."></div>
-        <div class="content-article">
-            <div class="title-article">Déménagement longue distance</div>
-            <div class="description-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-            <a href="#" class="button-article">Lire plus</a> </div>
-    </div>
-    <!-- FIN DE L'ARTICLE --> 
+<div class="title-section">
+	<h2>Nos services</h2>
 </div>
-<div class="services-center"> 
-    <!-- FIN DE L'ARTICLE --> 
-    <!-- DEBUT DE L'ARTICLE -->
+<div class="article-grid"> 
+<!-- DEBUT DE L'ARTICLE -->
     <div class="article">
-        <div class="article-image"><img src="images/garage.webp" alt="Une camionette roule sur une départementale."></div>
+        <img src="images/2hommes-camionnette.webp" alt="Deux hommes sortent des cartons d'une camionette">
         <div class="content-article">
-            <div class="title-article">Services de stockage</div>
-            <div class="description-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-            <a href="#" class="button-article">Lire plus</a> </div>
+            <h2>Déménagement à proximité</h2>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+            <a href="#" class="button-article">Lire plus</a>
+		</div>
     </div>
-    <!-- FIN DE L'ARTICLE --> 
-    <!-- DEBUT DE L'ARTICLE -->
+<!-- FIN DE L'ARTICLE --> 
+<!-- DEBUT DE L'ARTICLE -->
     <div class="article">
-        <div class="article-image"><img src="images/carton.webp" alt="Une camionette roule sur une départementale."></div>
+        <img src="images/camionnette.webp" alt="Une camionnette blanche sur une route avec en arrière plan, un paysage">
         <div class="content-article">
-            <div class="title-article">Emballer et déballer</div>
-            <div class="description-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-            <a href="#" class="button-article">Lire plus</a> </div>
+            <h2>Déménagement longue distance</h2>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+            <a href="#" class="button-article">Lire plus</a>
+		</div>
     </div>
-    <!-- FIN DE L'ARTICLE --> 
+<!-- FIN DE L'ARTICLE --> 
+<!-- DEBUT DE L'ARTICLE -->
+    <div class="article">
+        <img src="images/garage.webp" alt="Un garage ouvert avec des cartons à l'intérieur">
+        <div class="content-article">
+            <h2>Services de stockage</h2>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+            <a href="#" class="button-article">Lire plus</a>
+		</div>
+    </div>
+<!-- FIN DE L'ARTICLE --> 
+<!-- DEBUT DE L'ARTICLE -->
+    <div class="article">
+        <img src="images/carton.webp" alt="Un homme utilise une scotcheuse pour fermer un carton">
+        <div class="content-article">
+            <h2>Emballer et déballer</h2>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+            <a href="#" class="button-article">Lire plus</a>
+		</div>
+    </div>
+<!-- FIN DE L'ARTICLE --> 
 </div>
-<div class="space-between"></div>
 
-<!-- TEMOIGNAGES
+<!-- SECTION WITH TABS
 		--------------------------------------->
 
-<div class="full-width-services">
-    <div class="services-full-width-image">
-        <p>Un service de confiance</p>
-    </div>
-</div>
 <div class="tab-center">
-    <div class="services-tab">
-        <div class="tab black"><img src="images/picto-white.png"><br>
-            Déménagement longue distance</div>
-        <div class="tab orange"><img src="images/picto-white.png"><br>
-            Assurance sur vos biens</div>
-        <div class="tab white"><img src="images/picto-black.png"><br>
-            95% de taux de recommandation</div>
-    </div>
+	<div class="services-full-width-image">
+		<h2>Un service de confiance</h2>
+	</div>
+	<div class="tab" id="#blackcolor">
+		<img src="images/picto-white.png" alt="Un carré légèrement transparent en dessous d'un carré opaque">
+			<br>
+		<h2>Déménagement longue distance</h2>
+	</div>
+	<div class="tab" id="#orangecolor">
+		<img src="images/picto-white.png" alt="Un carré légèrement transparent en dessous d'un carré opaque">
+			<br>
+		<h2>Assurance sur vos biens</h2></div>
+	<div class="tab" id="#whitecolor">
+		<img src="images/picto-black.png" alt="Un carré légèrement transparent en dessous d'un carré opaque">
+			<br>
+		<h2>95% de taux de recommandation</h2>
+	</div>
 </div>
-<div class="title-section clients">Nos Clients Satisfaits</div>
-<div class="content-testimonials">
-    <div class="testimonial-arrow"><img class="reverse" src="images/arrow.png" alt="Flèche gauche"></div>
-    <div class="testimonial-text">
-        <p>« Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. »</p>
-        <h3>Jean Martin</h3>
-    </div>
-    <div class="testimonial-arrow"><img src="images/arrow.png" alt="Flèche droite"></div>
-</div>
-<div class="content-partenaires"><img src="images/logo-a.JPG"><img src="images/logo-golbal-moving.JPG"><img src="images/logo-american-moving.JPG"><img src="images/logo-california-bestmover.JPG"><img src="images/logo-movtop.JPG"></div>
 
-<!-- DEVIS GRATUIT
+<!-- TESTIMONIALS
+		--------------------------------------->
+
+<div class="title-section" id="clients-satisfaits">
+	<h2>Nos clients satisfaits</h2>
+</div>
+<div class="content-testimonials">
+	<div class="col-testimonials" id="left-arrow">
+		<img class="reverse" src="images/arrow-left.png" alt="Flèche gauche">
+	</div>
+    <div class="col-testimonials">
+        <p>« Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. »</p>
+        <span>Jean Martin</span>
+    </div>
+    <div class="col-testimonials" id="right-arrow">
+		<img src="images/arrow-right.png" alt="Flèche droite">
+	</div>
+</div>
+<div class="content-partenaires">
+	<img src="images/logo-a.JPG" alt="Logo de notre partenaire A+ Businesses">
+	<img src="images/logo-golbal-moving.JPG" alt="Logo de notre partenaire Global Moving">
+	<img src="images/logo-american-moving.JPG" alt="Logo de notre partenaire American Moving">
+	<img src="images/logo-california-bestmover.JPG" alt="Logo de notre partenaire California Bestmover">
+	<img src="images/logo-movtop.JPG"  alt="Logo de notre partenaire Movtop">
+</div>
+
+<!-- FORM
 	--------------------------------------->
 
 <div class="devis-form-section">
-    <div class="devis-text">
-        <h2>Votre devis gratuit</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="devis-section" id="devis-section-text">
+        <h2 class="devis-padding-text">Votre devis gratuit</h2>
+        <p class="devis-padding-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
-    <div class="devis-form">
+    <div class="devis-section">
         <div class="form-line">
             <div class="field">
                 <label for="demenagement">Ville déménagement*</label>
@@ -158,17 +197,19 @@
                 <input type="number" id="piece" name="piece">
             </div>
         </div>
-        <div class="form-line more-space">
+        <div class="form-line padding-top-form">
             <div class="field">
                 <label for="name">Nom</label>
                 <input type="name" id="name" name="name">
             </div>
             <div class="field">
-                <label for="telephone">Téléphone&nbsp;</label>
+                <label for="telephone">Téléphone</label>
                 <input type="tel" id="telephone" name="telephone">
             </div>
         </div>
-        <div class="form-line"> <a href="#" class="button-about-us" id="full-width">Envoyer</a> </div>
+        <div class="form-line padding-top-form">
+			<a href="#" class="button-about-us" id="full-width">Envoyer</a>
+		</div>
     </div>
 </div>
 
@@ -176,39 +217,46 @@
 	--------------------------------------->
 
 <div class="footer">
-    <div class="section-footer"><a href="#"><img class="logo-footer" src="images/logo.png" alt="Logo Paul et Fils"></a>
+    <div class="section-footer">
+		<a href="#"><img src="images/logo.png" alt="Logo Paul et Fils"></a>
         <p>Numéro de licence : 123-456-7890</p>
     </div>
     <div class="section-footer">
         <p>CONTACT</p>
         <p>Tél : 01 23 45 67 89<br>
-            E-mail : info@monsite.fr</p>
+           E-mail : info@monsite.fr</p>
         <p>15 rue du Château<br>
-            75001 Paris, France</p>
+           75001 Paris, France</p>
     </div>
     <div class="section-footer">
         <p>HORAIRES D'OUVERTURE</p>
         <p>Lun-Ven : 7h - 22h<br>
-            Samedi : 8h - 22h<br>
-            Dimanche : 8h - 23h</p>
+           Samedi : 8h - 22h<br>
+           Dimanche : 8h - 23h</p>
     </div>
     <div class="section-footer">
         <p>RESSOURCES</p>
         <p><a href="#">Adresses</a><br>
-            <a href="#">Conseils</a><br>
-            <a href="#">FAQ</a><br>
-            <a href="#">Mentions légales</a><br>
-            <a href="#">Politique en matière de cookies</a><br>
-            <a href="#">Politique de confidentialité</a><br>
-            <a href="#">Conditions d’utilisation</a></p>
+           <a href="#">Conseils</a><br>
+           <a href="#">FAQ</a><br>
+           <a href="#">Mentions légales</a><br>
+           <a href="#">Politique en matière de cookies</a><br>
+           <a href="#">Politique de confidentialité</a><br>
+           <a href="#">Conditions d’utilisation</a></p>
     </div>
 </div>
-<div class="footer no-gap">
-    <div class="section-footer adjustement">
+<div class="footer">
+    <div class="section-footer" id="copyright-section">
         <p>© 2023 par Paul et fils.<br>
             Créé avec <a href="https://fr.wix.com/">Wix.com</a></p>
     </div>
-    <div class="section-footer adjustement in-line"><a href="#" class="fa-brands fa-facebook-f" id="facebook"></a><a href="#" class="fa-brands fa-twitter" id="twitter"></a><a href="#" class="fa-brands fa-linkedin" id="linkedin"></a><a href="#" class="fa-brands fa-youtube" id="youtube"></a></div>
+    <div class="section-footer" id="social-network-icon">
+		<a href="#" class="fa-brands fa-facebook-f" id="facebook"></a>
+		<a href="#" class="fa-brands fa-twitter" id="twitter"></a>
+		<a href="#" class="fa-brands fa-linkedin" id="linkedin"></a>
+		<a href="#" class="fa-brands fa-youtube" id="youtube"></a>
+	</div>
 </div>
+
 </body>
 </html>
