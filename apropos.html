@@ -4,56 +4,71 @@
 <meta charset="utf-8">
 <title>Paul et Fils - Accueil</title>
 <link href="style.css" rel="stylesheet" type="text/css">
+<link href="responsive.css" rel="stylesheet" type="text/css">
 <script src="https://kit.fontawesome.com/b4e4872456.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-<!-- BARRE DE NAVIGATION
+<!-- NAVIGATION BAR
 	--------------------------------------->
 
 <div class="nav-bar">
-    <div class="logo"> <img class="nav-logo" src="images/logo.png" alt="Logo Paul et Fils"> </div>
-    <div class="menu"> <a href="index.html">Accueil</a> <a href="apropos.html">A Propos</a> <a href="services.html">Services</a> <a href="conseils.html">Conseils</a> <a href="contact.html">Contact</a> </div>
-    <a href="#" class="devis">
-    <p>Devis gratuit</p>
-    </a> </div>
+    <div class="logo">
+		<img src="images/logo.png" alt="Logo Paul et Fils">
+	</div>
+    <nav>
+		<div class="menu">
+        	<a href="index.html">Accueil</a>
+			<a href="apropos.html">A Propos</a>
+			<a href="services.html">Services</a>
+			<a href="conseils.html">Conseils</a>
+			<a href="contact.html">Contact</a>
+		</div>
+    </nav>
+    <a href="#" class="button-nav-bar">
+    	<p>Devis gratuit</p>
+    </a>
+</div>
 
-<!-- TITRE ET DESCRIPTION
+<!-- TITLE & DESCRIPTION
 		--------------------------------------->
 
-<div class="about">
-    <div class="about-text">
-        <div class="about-text-content" id="about-text-content-padding">
-            <p>Paul et fils Déménagement</p>
-        </div>
+<div class="full-width-about">
+    <div class="full-width-about-text">
+        <div class="full-width-about-content">
+            <h2 id="no-padding">Paul et fils Déménagement</h2>
+		</div>
     </div>
-    <div class="about-paragraph">
-        <div class="about-paragraph-padding">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-    </div>
+    <div class="full-width-about-image" id="full-width-about-background">
+		<div class="full-width-about-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
 </div>
 
 <!-- SECTION COMMENT CA MARCHE
 		--------------------------------------->
 
-<div class="title-section">Comment ça marche</div>
-<div class="tab-center">
-    <div class="tab black tab-padding"><img src="images/picto-white.png"><br>
+<div class="title-section">
+	<h2>Comment ça marche</h2>
+</div>
+<div class="tab-full-width">
+    <div class="tab" id="blackcolor"><img src="images/picto-white.png" alt="Deux carrés l'un sur l'autre"><br>
         <h3>étape 1</h3>
         <p>Organiser</p>
     </div>
-    <div class="tab white tab-padding"><img src="images/picto-black.png"><br>
+    <div class="tab" id="whitecolor"><img src="images/picto-black.png" alt="Deux carrés l'un sur l'autre"><br>
         <h3>étape 2</h3>
         <p>Emballer</p>
     </div>
-    <div class="tab transparent tab-padding"><img src="images/picto-black.png"><br>
+    <div class="tab" id="graycolor"><img src="images/picto-black.png" alt="Deux carrés l'un sur l'autre"><br>
         <h3>étape 3</h3>
         <p>Déménager</p>
     </div>
-    <div class="tab orange tab-padding"><img src="images/picto-white.png"><br>
+    <div class="tab" id="orangecolor"><img src="images/picto-white.png" alt="Deux carrés l'un sur l'autre"><br>
         <h3>étape 4</h3>
         <p>Déballer</p>
     </div>
@@ -62,23 +77,21 @@
 <!-- GARANTIE DE QUALITE
 			--------------------------------------->
 
-<div class="quality-guarenty">
-    <div class="padding-quality">
-        <p>Garantie de qualité</p>
+<div class="guarantee-full-width-image">
+        <h2>Garantie de qualité</h2>
         <br>
         <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
     </div>
-</div>
 
-<!-- DEVIS GRATUIT
+<!-- FORM
 	--------------------------------------->
 
 <div class="devis-form-section">
-    <div class="devis-text">
-        <h2>Votre devis gratuit</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="devis-section" id="devis-section-text">
+        <h2 class="devis-padding-text">Votre devis gratuit</h2>
+        <p class="devis-padding-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
-    <div class="devis-form">
+    <div class="devis-section">
         <div class="form-line">
             <div class="field">
                 <label for="demenagement">Ville déménagement*</label>
@@ -99,17 +112,19 @@
                 <input type="number" id="piece" name="piece">
             </div>
         </div>
-        <div class="form-line more-space">
+        <div class="form-line padding-top-form">
             <div class="field">
                 <label for="name">Nom</label>
                 <input type="name" id="name" name="name">
             </div>
             <div class="field">
-                <label for="telephone">Téléphone&nbsp;</label>
+                <label for="telephone">Téléphone</label>
                 <input type="tel" id="telephone" name="telephone">
             </div>
         </div>
-        <div class="form-line"> <a href="#" class="button-about-us" id="full-width">Envoyer</a> </div>
+        <div class="form-line padding-top-form">
+			<a href="#" class="button-about-us" id="full-width">Envoyer</a>
+		</div>
     </div>
 </div>
 
@@ -117,39 +132,46 @@
 	--------------------------------------->
 
 <div class="footer">
-    <div class="section-footer"><a href="#"><img class="logo-footer" src="images/logo.png" alt="Logo Paul et Fils"></a>
+    <div class="section-footer">
+		<a href="#"><img src="images/logo.png" alt="Logo Paul et Fils"></a>
         <p>Numéro de licence : 123-456-7890</p>
     </div>
     <div class="section-footer">
         <p>CONTACT</p>
         <p>Tél : 01 23 45 67 89<br>
-            E-mail : info@monsite.fr</p>
+           E-mail : info@monsite.fr</p>
         <p>15 rue du Château<br>
-            75001 Paris, France</p>
+           75001 Paris, France</p>
     </div>
     <div class="section-footer">
         <p>HORAIRES D'OUVERTURE</p>
         <p>Lun-Ven : 7h - 22h<br>
-            Samedi : 8h - 22h<br>
-            Dimanche : 8h - 23h</p>
+           Samedi : 8h - 22h<br>
+           Dimanche : 8h - 23h</p>
     </div>
     <div class="section-footer">
         <p>RESSOURCES</p>
         <p><a href="#">Adresses</a><br>
-            <a href="#">Conseils</a><br>
-            <a href="#">FAQ</a><br>
-            <a href="#">Mentions légales</a><br>
-            <a href="#">Politique en matière de cookies</a><br>
-            <a href="#">Politique de confidentialité</a><br>
-            <a href="#">Conditions d’utilisation</a></p>
+           <a href="#">Conseils</a><br>
+           <a href="#">FAQ</a><br>
+           <a href="#">Mentions légales</a><br>
+           <a href="#">Politique en matière de cookies</a><br>
+           <a href="#">Politique de confidentialité</a><br>
+           <a href="#">Conditions d’utilisation</a></p>
     </div>
 </div>
-<div class="footer no-gap">
-    <div class="section-footer adjustement">
+<div class="footer">
+    <div class="section-footer" id="copyright-section">
         <p>© 2023 par Paul et fils.<br>
             Créé avec <a href="https://fr.wix.com/">Wix.com</a></p>
     </div>
-    <div class="section-footer adjustement in-line"><a href="#" class="fa-brands fa-facebook-f" id="facebook"></a><a href="#" class="fa-brands fa-twitter" id="twitter"></a><a href="#" class="fa-brands fa-linkedin" id="linkedin"></a><a href="#" class="fa-brands fa-youtube" id="youtube"></a></div>
+    <div class="section-footer" id="social-network-icon">
+		<a href="#" class="fa-brands fa-facebook-f" id="facebook"></a>
+		<a href="#" class="fa-brands fa-twitter" id="twitter"></a>
+		<a href="#" class="fa-brands fa-linkedin" id="linkedin"></a>
+		<a href="#" class="fa-brands fa-youtube" id="youtube"></a>
+	</div>
 </div>
+
 </body>
 </html>
