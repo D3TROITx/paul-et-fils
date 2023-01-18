@@ -124,6 +124,7 @@ nav a:hover {
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/homme-carton-camionnette.webp");
 	background-position: center;
+	background-repeat: no-repeat;
 }
 .content-full-width-image {
     display: flex;
